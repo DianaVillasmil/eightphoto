@@ -1,104 +1,188 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-	<meta charset="UTF-8">
-	<title>maquetado eightphoto</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" >
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">	
-	<link rel="stylesheet" href="dist/css/style-nav.css">
-	<link rel="stylesheet" href="dist/css/style.min.css">
+    <meta charset="UTF-8">
+    <title>maquetado eightphoto</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="dist/css/style-nav.css">
+    <link rel="stylesheet" href="dist/css/style.min.css">
 </head>
+
 <body>
-	<head>
-		<div id="mynav-black" style="background-color: #000000">
-			<div class="home">
+    <header class="header">
+        <div class="header__black_bar">
+            <a class="header__black_bar__wp_logo" href="/">
+               <img src="img/wp-logo.jpg">					
+            </a>
 
-				<div class="wp-logo">
-					<a href="/"><img src="img/wp-logo.jpg"></a>					
-				</div>
+            <a href="/" class="header__black_bar__title">EightPhoto</a>
 
-				<ul>
-					<li>
-						<a href="/">EightPhoto</a>
-					</li>
-				</ul>
-				<a href="#"><i class="fa fa-desktop" aria-hidden="true"></i></a>
-				<a href="#"><i class="fa fa-tablet" aria-hidden="true"></i></a>
-				<a href="#"><i class="fa fa-mobile" aria-hidden="true"></i></a>
-				<a href="#"><i class="fa fa-mobile" aria-hidden="true"></i></a>
-				<a href="#"><i class="fa fa-mobile" aria-hidden="true"></i></a>				
-			</div>
-			<div>
-				<a href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Download</a>
-			</div>		
-		</div>
-	</head>
-    
-        <div id="wrapper">
-        <div class="overlay"></div>
-    
-        <!-- Sidebar -->
-        <nav class="navbar navbar-inverse navbar-fixed-top" id="sidebar-wrapper" role="navigation">
-            <ul class="nav sidebar-nav">
-                <li class="sidebar-brand">
-                    <a href="#">
-                       Brand
-                    </a>
-                </li>
-                <li>
-                    <a href="#">Home</a>
-                </li>
-                <li>
-                    <a href="#">About</a>
-                </li>
-                <li>
-                    <a href="#">Events</a>
-                </li>
-                <li>
-                    <a href="#">Team</a>
-                </li>
-                <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Works <span class="caret"></span></a>
-                  <ul class="dropdown-menu" role="menu">
-                    <li class="dropdown-header">Dropdown heading</li>
-                    <li><a href="#">Action</a></li>
-                    <li><a href="#">Another action</a></li>
-                    <li><a href="#">Something else here</a></li>
-                    <li><a href="#">Separated link</a></li>
-                    <li><a href="#">One more separated link</a></li>
-                  </ul>
-                </li>
-                <li>
-                    <a href="#">Services</a>
-                </li>
-                <li>
-                    <a href="#">Contact</a>
-                </li>
-                <li>
-                    <a href="https://twitter.com/maridlcrmn">Follow me</a>
-                </li>
+            <ul class="header__black_bar__responsive">
+                <li class="active"> <a href="#"><i class="fa fa-desktop" aria-hidden="true"></i></a> </li>
+                <li> <a href="#"><i class="fa fa-tablet rot" aria-hidden="true"></i></a> </li>
+                <li> <a href="#"><i class="fa fa-tablet" aria-hidden="true"></i></a> </li>
+                <li> <a href="#"><i class="fa fa-mobile rot" aria-hidden="true"></i></a> </li>
+                <li> <a href="#"><i class="fa fa-mobile" aria-hidden="true"></i></a> </li>
             </ul>
-        </nav>
-        <!-- /#sidebar-wrapper -->
-
-        <!-- Page Content -->
-        <div id="page-content-wrapper">
-            <button type="button" class="hamburger is-closed" data-toggle="offcanvas">
-                <span class="hamb-top"></span>
-    			<span class="hamb-middle"></span>
-				<span class="hamb-bottom"></span>
-            </button>
-      </div>
+            
+            <a href="#" class="header__black_bar__shopping btn btn-primary"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Download</a>
+        </div>
+    </header>
 
 
 
+    <header class="cd-main-header">
+  <ul class="cd-header-buttons">
+    <li>
+      <a class="cd-nav-trigger" href="#cd-primary-nav">Menu<span></span></a>
+    </li>
+  </ul>
+  <!-- cd-header-buttons -->
+</header>
+<main class="cd-main-content">
+  <!-- your content here -->
+</main>
+<div class="cd-overlay"></div>
+<nav class="cd-nav">
+  <ul class="cd-primary-nav is-fixed" id="cd-primary-nav">
+    <li class="has-children">
+      <a href="http://omnicard.com">Visa, MasterCard &amp;
+                Discover</a>
+      <ul class="cd-secondary-nav is-hidden">
+        <li class="go-back">
+          <a href="#0">Menu</a>~
+        </li>
+        <li>
+          <a href="#">Predesign Cards</a>
+        </li>
+        <li>
+          <a href="#">Cobrand Cards</a>
+        </li>
+        <li>
+          <a href="#">Reloadable Cards</a>
+        </li>
+        <li>
+          <a href="#">BreakFree Cards</a>
+        </li>
+        <li>
+          <a href="#">Virtual Cards</a>
+        </li>
+      </ul>
+    </li>
+    <li class="has-children">
+      <a href="http://omnicard.com">Merchant Cards</a>
+      <ul class="cd-secondary-nav is-hidden">
+        <li class="go-back">
+          <a href="#0">Menu</a>
+        </li>
+        <li>
+          <a href="#">eGifts</a>
+        </li>
+        <li>
+          <a href="#">Gift Cards</a>
+        </li>
+        <li>
+          <a href="#">Platinum Rewards</a>
+        </li>
+        <li>
+          <a href="#">SelectSpend</a>
+        </li>
+        <li>
+          <a href="#">Brands Directory</a>
+        </li>
+      </ul>
+    </li>
+    <li>
+      <a href="http://omnicard.com">OmniCodes</a>
+    </li>
+    <li class="has-children">
+      <a href="http://omnicard.com">Marketing Support</a>
+      <ul class="cd-secondary-nav is-hidden">
+        <li class="go-back">
+          <a href="#0">Menu</a>
+        </li>
+        <li>
+          <a href="#">Greeting Cards</a>
+        </li>
+        <li>
+          <a href="#">Promotional Inserts</a>
+        </li>
+        <li>
+          <a href="#">Cardholder Support Options</a>
+        </li>
+        <li>
+          <a href="#">Program Management</a>
+        </li>
+        <li>
+          <a href="#">Holiday Reward Cards</a>
+        </li>
+      </ul>
+    </li>
+    <li>
+      <a href="http://omnicard.com">API Solutions</a>
+    </li>
+    <li class="has-children">
+      <a href="http://omnicard.com">Reward Programs</a>
+      <ul class="cd-secondary-nav is-hidden">
+        <li class="go-back">
+          <a href="#0">Menu</a>
+        </li>
+        <li>
+          <a href="#">Employee Rewards</a>
+        </li>
+        <li>
+          <a href="#">Customer Incentives</a>
+        </li>
+        <li>
+          <a href="#">Agencies</a>
+        </li>
+      </ul>
+    </li>
+    <li class="has-children">
+      <a href="http://omnicard.com">About Us</a>
+      <ul class="cd-secondary-nav is-hidden">
+        <li class="go-back">
+          <a href="#0">Menu</a>
+        </li>
+        <li>
+          <a href="#">Case Studies</a>
+        </li>
+        <li>
+          <a href="#">Resources</a>
+        </li>
+        <li>
+          <a href="#">Contact Us</a>
+        </li>
+        <li>
+          <a href="#">News</a>
+        </li>
+        <li>
+          <a href="#">Partners</a>
+        </li>
+        <li>
+          <a href="#">Careers</a>
+        </li>
+      </ul>
+    </li>
+  </ul>
+  <!-- primary-nav -->
+</nav>
+<!-- cd-nav -->
+
+        
 
 
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  	<script src="dist/js/script-nav.js"></script>	
-  	<script src="dist/js/script.js"></script>
-	<script src="dist/js/main.js"></script>	
+
+
+
+
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script src="dist/js/script.js"></script>
 </body>
+
 </html>

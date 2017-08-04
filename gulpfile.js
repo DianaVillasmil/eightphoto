@@ -27,7 +27,8 @@
  });
 
  gulp.task('watch', function() {
-    gulp.watch('assets/sass/*.scss', ['style']);
+	gulp.watch('assets/sass/*.scss', ['style']);
+	gulp.watch('assets/js/*.js', ['script']);
 });
  
  //tercera tarea llamada webserver, la cual creara un servidor web de desarrollo que se ejecutara en el localhost puerto 8000
