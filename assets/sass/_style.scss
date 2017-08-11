@@ -1,5 +1,10 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 body {
-    background-color: green;
     font-family: 'Pompiere', cursive;
 }
 
@@ -92,6 +97,10 @@ p {
 
 }
 
+.fourth-section {
+    text-align: center;
+}
+
 .hexagono {
     height: 55px;
     background: red;
@@ -119,8 +128,74 @@ p {
     border-top: 25px solid white;
 }
 
-section .box-background {
-    background-image: url("img/devices.png")
+.box-background2 {
+    background-image: url("../../img/news-bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+
+.title h2 {
+   text-align: center;
+   color: black;
+   font-size: 47px;
+   margin-bottom: -15px;
+}
+
+.title2 h2 {
+    color: white;
+    text-align: center;
+    font-size: 47px;
+}
+
+.title hr {
+   border-top: 1px solid black;
+   width: 72px;
+   text-align: center;
+}
+
+.title2 hr {
+   border-top: 1px solid white;
+   width: 35px;
+   margin-top: -5px;
+   text-align: center;
+}
+
+.litle  {
+    width: 30px !important;
+    margin-top: -18px !important;
+    text-align: center;
+}
+
+.litle2  {
+    width: 15px !important;
+    margin-top: -18px !important;
+    text-align: center;
+}
+
+.white-text {
+    color: white;
+    padding-left: 10px;
+
+}
+
+.contact {
+    text-align: center;
+    text-decoration: none;
+}
+
+footer hr {
+    margin-top: 8px;
+}
+
+ul {
+    list-style:none;
+}
+
+
+
+
+
+
 
 
