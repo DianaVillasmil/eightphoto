@@ -16,6 +16,10 @@ p {
     font-family: 'Lato', sans-serif;
 }
 
+.cd-nav-trigger {
+    border: 1px solid #eee;
+}
+
 
 .header{
     display: fixed;
@@ -133,6 +137,7 @@ p {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    padding: 80px 0;
 }
 
 .title h2 {
@@ -184,12 +189,38 @@ p {
     text-decoration: none;
 }
 
-footer hr {
+hr .contactos {
     margin-top: 8px;
 }
 
 ul {
     list-style:none;
+}
+
+.boton-verde {
+    background: #9dc100;
+    border: 1px solid #9dc100;
+    color: #fff;
+    padding: 10px 30px;
+    border-radius: 30px;
+}
+
+a {
+    text-decoration: none;
+    cursor: auto;
+}
+
+section {
+    padding: 80px 0;
+}
+.third-section {
+    background-color: #f4f4f4;
+}
+
+.box-background {
+    background-image: url("../../img/devices.png");
+    background-repeat: repeat-x;
+    background-repeat: repeat-x;
 }
 
 
