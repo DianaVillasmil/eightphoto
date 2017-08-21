@@ -132,6 +132,13 @@ p {
     border-top: 25px solid white;
 }
 
+.box-background p {
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 30px;
+    margin-top: 72px;
+}
+
 .box-background2 {
     background-image: url("../../img/news-bg.jpg");
     background-position: center;
@@ -140,43 +147,63 @@ p {
     padding: 80px 0;
 }
 
-.title h2 {
-   text-align: center;
-   color: black;
-   font-size: 47px;
-   margin-bottom: -15px;
+hr {
+    border-top: none;
+    text-align: center;
+    background: #999;
+    left: 0;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    height: 1px;
+    margin: 0 auto;
+    margin-top: -11px;
+    width: 6%;
 }
 
-.title2 h2 {
+.litle {
+    margin-top: -8px;
+    width: 4%;
+
+}
+
+.large {
+    width: 15%;
+    margin-top: 2px;
+}
+
+.large-litle {
+    width: 11%;
+    margin-top: 5px;
+}
+
+.large-white {
+    margin-top: -5px;
+    width: 3%;
+    color: white !important;
+
+}
+
+.litle-white {
+    margin-top: -8px;
+    width: 2%;
+    color: white !important;
+}
+
+
+h2 {
+    text-align: center;
+    font-size: 3em;
+}
+
+
+
+.white {
     color: white;
-    text-align: center;
-    font-size: 47px;
 }
 
-.title hr {
-   border-top: 1px solid black;
-   width: 72px;
-   text-align: center;
-}
 
-.title2 hr {
-   border-top: 1px solid white;
-   width: 35px;
-   margin-top: -5px;
-   text-align: center;
-}
 
-.litle  {
-    width: 30px !important;
-    margin-top: -18px !important;
-    text-align: center;
-}
-
-.litle2  {
-    width: 15px !important;
-    margin-top: -18px !important;
-    text-align: center;
-}
 
 .white-text {
     color: white;
@@ -189,9 +216,7 @@ p {
     text-decoration: none;
 }
 
-hr .contactos {
-    margin-top: 8px;
-}
+
 
 ul {
     list-style:none;
@@ -218,11 +243,41 @@ section {
 }
 
 .box-background {
-    background-image: url("../../img/devices.png");
-    background-repeat: repeat-x;
-    background-repeat: repeat-x;
+    background-image: url("../../img/cta-bg-1.jpg");
+    text-align: center;
+    padding: 80px 0;
+
 }
 
+.third-section {
+    img {
+        width: 100%;
+    }
+}
+
+.fifth-section {
+    img {
+        width: 115%;
+        text-align: center;
+    }
+}
+
+.fourth-section {
+    background-image: url("../../img/stat-bg.jpg");
+    color: white;
+
+    & i {
+        font-size: 2em
+    }
+
+    & p {
+        font-size: 22px;
+        font-weight: 400;
+        margin-bottom: 30px;
+        padding-top: 15px;
+        text-transform: capitalize;
+    }
+}
 
 
 
