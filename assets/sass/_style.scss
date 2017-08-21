@@ -101,8 +101,21 @@ p {
 
 }
 
+.second-section {
+    margin-top: 71px !important; 
+    color: #666;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center
+}
+
 .fourth-section {
     text-align: center;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 25px;
+    font-family: 'lato', sans-serif;
 }
 
 .hexagono {
@@ -240,6 +253,10 @@ section {
 }
 .third-section {
     background-color: #f4f4f4;
+
+    & img {
+        width: 100%;
+    }
 }
 
 .box-background {
@@ -247,12 +264,6 @@ section {
     text-align: center;
     padding: 80px 0;
 
-}
-
-.third-section {
-    img {
-        width: 100%;
-    }
 }
 
 .fifth-section {
@@ -276,6 +287,20 @@ section {
         margin-bottom: 30px;
         padding-top: 15px;
         text-transform: capitalize;
+    }
+}
+
+.contact {
+
+    & i {
+        color: #606062;
+        font-size: 3em;
+    }
+    
+
+    & p {
+        font-size: 2em;
+        color: #606062;
     }
 }
 
